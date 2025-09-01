@@ -1,3 +1,10 @@
+// Improved Application Performance
+// Threads can significantly enhance the performance of an application by utilizing multiple CPU cores effectively. 
+// By executing tasks in parallel, threads can reduce the overall processing time.
+
+// In this example, two threads process an array in parallel, potentially reducing the overall processing time compared 
+// to a single-threaded approach.
+
 import java.util.Arrays;
 
 public class ParallelProcessingExample {

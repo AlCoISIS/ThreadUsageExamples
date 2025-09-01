@@ -1,3 +1,8 @@
+// Threads can keep applications responsive, especially those with a user interface. By running long or blocking 
+// operations in separate threads, the main thread remains responsive to user input.
+
+// In this example, clicking the button starts a long-running task in a separate thread, keeping the UI responsive.
+
 import javax.swing.*;
 
 public class ResponsiveUIExample {

@@ -1,3 +1,9 @@
+// Threads are essential for managing blocking operations such as I/O tasks, network communication, 
+// and waiting for external events without freezing the entire application.
+
+// In this example, network communication is handled in a separate thread, preventing the main thread from being 
+// blocked and allowing the application to remain responsive.
+
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.net.URL;

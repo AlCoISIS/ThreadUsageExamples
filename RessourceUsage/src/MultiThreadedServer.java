@@ -1,3 +1,9 @@
+// Threads can optimize the utilization of system resources by running multiple operations concurrently, 
+// especially on multi-core processors.
+
+// This example demonstrates a simple multi-threaded server where each client request is handled in a separate thread, 
+// allowing the server to handle multiple requests concurrently.
+
 import java.io.IOException;
 import java.net.ServerSocket;
 import java.net.Socket;
